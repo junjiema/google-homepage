@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    min-height: 370px;
+    background-color: #fff;
+    z-index: 1;
+}
+
+#header {
+    display: block;
+    width: 100%;
+    text-align: right;
+    margin: 2px 0;
+    top: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: block;
+}
+
+#header li {
+   display: inline-block;
+}
+
+#header li a {
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #000;
+    font-family: arial, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+#header li a:hover {
+    text-decoration: underline;
+}
+
+#header li .app-icon {
+    opacity: .65;
+    background:
+    url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png") no-repeat 50% 100%;
+    background-position: -132px -42px;
+}
+
+#header li .app-icon:hover {
+    opacity: 1;
+}
+
+.account {
+    margin-left: -10px;
+}
+
+#content {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo {
+    height: 95px;
+    width: 270px;
+    margin: 135px auto 20px auto;
+}
+
+.googlelogo {
+    background:
+    url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png") no-repeat;
+    background-size: 272px 92px;
+    height: 92px;
+    width: 272px;
+}
+
+.logotext {
+    top: -19px;
+    left: 111px;
+    color: #4285f4;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+}
+
+.input-container {
+    margin: 0 auto 0 auto;
+    background-color: white;
+    width: 475px;
+    height: 31px;
+    border: 1px solid #d9d9d9;
+}
+
+.input {
+    width: 100%;
+    height: 20px;
+    padding-top: 8px;
+    padding-left: 10px;
+    outline: none;
+    text-align: left;
+}
+
+.input-container:hover {
+    border: 1px solid #b9b9b9;
+}
+
+.voice {
+    width: 470px;
+    height: 100%;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACrElEQVR42u2Xz2sTQRSAX8VSb1K8iNqKooJH2Ux6Ksn+iPQqxZMIehJB0do/IMhmQWsvHr2KSEGk0tSLIoWIYNUKij20F2/N7iaUZnYT0kYzzhMKs0HDJiTdLcwHDwKZSd63781LBiQSSW9JZdkhzfKm1Rz9mjZp/W9YdEU3vXv4HsQZ40FtNG36q5rls//Ej4tmbSS2T15Mvp3ExOPmEMQNbBtMMEyoljcFcQN7PqyAlqNfIG7gYQ0tYNIaxA1MrJPY3wImbUqBKAXSFv0tBSIVMOkvKRDtGKWN/T6FdqRAxFNoWwpEPIXqUqBT6ALU/UVgu8GW4GD3f6f9TRDYNJTDrk7YbtiqUumHwIYoUJuHERDAS0r4CvgFECgbY+cFAR7KT+g1POmCKFDNw6WggHc3fBtVb4CAoyauBgXIG+g1Xh5mRAGah6cggBd11fK/h7lOprIs0H6uRl6KAo5O7kOv4QmPiwJ4Jqqv4FiwCtXjvD2+tRmfK6kZ/ygI2HritK0rDVGgrClJ6DWMwYC/AGuCBMYcIC2V0CzvjmbRz3j3xUjn6CfeYreUJ2wQkGD75INPX1mFfsEFrrcIYCvdhC4paWQakxajpJMr0C9YFg54i7AsClRmh9/xnr0NHcInzZStk2aLwAcGMAD9pPIazvFKVDD5rdnhJeHLX5RTyRPQHpz5o66emMc9wdlPtvA8wF7Aq2BUHh1525qEo5JtR1WeOXpickO9cJIpyuD6xJmhYiZ5ytWSl3mlnuOaf+2zDaLDXmJrSgZ/MYVEugo+gSh+FkSBa4yd5Ul87DZ5XpFl/AyIEjzYjkau8WqshU2cr13HPbgX4gJOD97n465GZlyVvC9mSKloKI2iTnbwNT+gBX54H+IaXAtxJzE3ycSAFqSAFJACUkAikXD+AHj5/wx2o5osAAAAAElFTkSuQmCC) no-repeat;
+    background-size: 24px 24px;
+    background-position: 440px -2px;
+}
+
+#content #search {
+  margin: 20px auto 0 auto;
+    font-size: 0;
+}
+
+#content input {
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;
+
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    text-align: center;
+    color: #666;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    height: 32px;
+    line-height: 25px;
+}
+
+#content input:hover {
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+#search .googlesearch{
+    margin-right:20px;
+}
+
+.fbar {
+    z-index: -1;
+    background-color: #f2f2f2;
+    height: 2.5em;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+}
+
+.fbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: #666;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    margin: 0.5em 1em;
+}
+
+.fbl {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.fbr {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.fbar a:hover {
+    text-decoration: underline;
+}
+
+
+
+
